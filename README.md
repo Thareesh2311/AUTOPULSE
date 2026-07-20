@@ -23,6 +23,9 @@ and customer service.
 customer reviews.
 • The system identifies customer opinions on key aspects, including price, vehicle condition, mileage, delivery,
 documentation, and customer service.
+
+<img width="648" height="766" alt="image" src="https://github.com/user-attachments/assets/5206b17c-d207-4c00-9aa0-0204733238be" />
+
 • The project compares customer feedback from Cars24 and Spinny to evaluate overall customer satisfaction and
 platform performance.
 • The results are presented through dashboards and visualizations, helping customers make informed decisions
