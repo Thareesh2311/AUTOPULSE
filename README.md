@@ -31,3 +31,7 @@ platform performance.
 • The results are presented through dashboards and visualizations, helping customers make informed decisions
 and enabling companies to improve their services.
 
+✅ Phase 1: Data Collection
+✅ Phase 2: Data Integration
+✅ Phase 3: Data Cleaning
+✅ Phase 4: Text Preprocessing
