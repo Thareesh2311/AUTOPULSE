@@ -1,4 +1,4 @@
-# 🚗 AutoPulse
+# AutoPulse
 
 ## Sentiment Analysis of Used Car Reviews using NLP & Deep Learning
 
@@ -12,7 +12,7 @@ An intelligent NLP and Deep Learning system that analyses customer reviews from 
 
 ---
 
-# 📖 Table of Contents
+# Table of Contents
 
 * Overview
 * Problem Statement
@@ -31,7 +31,7 @@ An intelligent NLP and Deep Learning system that analyses customer reviews from 
 
 ---
 
-# 🚀 Overview
+# Overview
 
 Online used-car marketplaces generate thousands of customer reviews every day. These reviews contain valuable information about customer satisfaction, service quality, pricing, and vehicle condition. However, manually analysing such a large volume of feedback is inefficient and time-consuming.
 
@@ -39,22 +39,14 @@ Online used-car marketplaces generate thousands of customer reviews every day. T
 
 The system classifies reviews into:
 
-* 😊 Positive
-* 😐 Neutral
-* 😠 Negative
+* Positive
+* Neutral
+* Negative
 
-It also identifies customer opinions about important aspects such as:
-
-* 🚗 Vehicle Condition
-* 💰 Price
-* ⛽ Mileage
-* 📄 Documentation
-* 🚚 Delivery Experience
-* 👨‍💼 Customer Service
-
+It also identifies customer opinions:
 ---
 
-# ❗ Problem Statement
+# Problem Statement
 
 Customers rely heavily on online reviews before purchasing a used car. Since these platforms receive thousands of reviews, manually identifying customer satisfaction and common issues is difficult.
 
@@ -67,7 +59,7 @@ An automated sentiment analysis system is needed to:
 
 ---
 
-# 🎯 Objectives
+# Objectives
 
 * Collect customer reviews from Cars24 and Spinny
 * Create an integrated review dataset
@@ -79,15 +71,15 @@ An automated sentiment analysis system is needed to:
 
 ---
 
-# ✨ Features
+#  Features
 
-### 📥 Data Collection
+### Data Collection
 
 * Multi-source review collection
 * Cars24 reviews
 * Spinny reviews
 
-### 🧹 Data Preprocessing
+### Data Preprocessing
 
 * Duplicate removal
 * Missing value handling
@@ -101,7 +93,7 @@ An automated sentiment analysis system is needed to:
 * Stop-word removal
 * Lemmatisation
 
-### 🤖 Sentiment Classification
+### Sentiment Classification
 
 Predicts customer sentiment as:
 
@@ -111,7 +103,7 @@ Predicts customer sentiment as:
 
 using Deep Learning models.
 
-### 🎯 Aspect-Based Sentiment Analysis
+### Aspect-Based Sentiment Analysis
 
 Identifies sentiment for:
 
@@ -122,20 +114,7 @@ Identifies sentiment for:
 * Delivery
 * Customer Service
 
-### 📊 Dashboard
-
-Interactive visualisations including:
-
-* Sentiment Distribution
-* Platform Comparison
-* Aspect-wise Sentiment
-* Word Cloud
-* Review Trends
-* Customer Satisfaction Analysis
-
----
-
-# 🔄 Project Workflow
+# Project Workflow
 
 ```text
 Customer Reviews
@@ -175,7 +154,7 @@ Business Insights
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 ## Programming Language
 
@@ -215,7 +194,7 @@ Business Insights
 
 ---
 
-# 🧠 NLP Pipeline
+# NLP Pipeline
 
 ```text
 Raw Reviews
@@ -244,7 +223,7 @@ Deep Learning Model
 
 ---
 
-# 🤖 Deep Learning Models
+# Deep Learning Models
 
 ### LSTM
 
@@ -263,21 +242,7 @@ Deep Learning Model
 * Delivers state-of-the-art sentiment classification performance
 
 ---
-
-# 🎯 Aspect-Based Sentiment Analysis
-
-| Aspect                 | Description                   |
-| ---------------------- | ----------------------------- |
-| 🚗 Vehicle Condition   | Vehicle quality and condition |
-| 💰 Price               | Pricing and value for money   |
-| ⛽ Mileage              | Vehicle performance           |
-| 📄 Documentation       | Paperwork and documentation   |
-| 🚚 Delivery            | Delivery experience           |
-| 👨‍💼 Customer Service | Customer support quality      |
-
----
-
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 AutoPulse/
@@ -311,7 +276,7 @@ AutoPulse/
 
 ---
 
-# 📌 Project Status
+# Project Status
 
 | Phase                 | Status        |
 | --------------------- | ------------- |
@@ -327,7 +292,7 @@ AutoPulse/
 
 ---
 
-# 🚀 Future Scope
+# Future Scope
 
 * Real-time sentiment analysis
 * Multi-language support
@@ -339,7 +304,7 @@ AutoPulse/
 
 ---
 
-# 🎯 Expected Outcomes
+# Expected Outcomes
 
 * Automatically classify customer reviews into Positive, Neutral, and Negative sentiments.
 * Identify customer opinions for specific service aspects.
@@ -349,7 +314,7 @@ AutoPulse/
 
 ---
 
-# 👨‍💻 Authors
+# Authors
 
 **AutoPulse – Sentiment Analysis of Used Car Reviews using NLP & Deep Learning**
 
@@ -368,6 +333,6 @@ Developed using:
 
 ⭐ **If you found this project helpful, consider giving it a Star!**
 
-*"Turning Customer Opinions into Actionable Insights with AI."* 🚗📊🤖
+*"Turning Customer Opinions into Actionable Insights with AI."* 
 
 </div>
