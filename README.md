@@ -1,212 +1,223 @@
-AutoPulse 🚗💬
-Sentiment Analysis of Used Car Reviews using NLP & Deep Learning
+# 🚗 AutoPulse
+
+## Sentiment Analysis of Used Car Reviews using NLP & Deep Learning
+
 <div align="center">
 
+### Turning Customer Reviews into Actionable Insights with AI
 
-
-
-
-
-
-
-
-
-
-
-An Intelligent NLP & Deep Learning System for Analyzing Customer Reviews of Used Car Platforms
+An intelligent NLP and Deep Learning system that analyses customer reviews from **Cars24** and **Spinny** to understand customer sentiment, identify key concerns, and provide business insights through interactive visualisations.
 
 </div>
-📖 Table of Contents
-Overview
-Problem Statement
-Objectives
-Features
-Project Workflow
-Technologies Used
-NLP Pipeline
-Deep Learning Models
-Aspect-Based Sentiment Analysis
-Dashboard & Visualization
-Project Structure
-Current Progress
-Future Enhancements
-Authors
-🚀 Overview
 
-The rapid growth of online used-car marketplaces such as Cars24 and Spinny has transformed the way customers purchase pre-owned vehicles. Before making a purchase, buyers often rely on thousands of customer reviews to evaluate vehicle quality and service reliability.
+---
 
-However, manually reading and analyzing such a large volume of reviews is both time-consuming and inefficient.
+# 📖 Table of Contents
 
-AutoPulse is an AI-powered sentiment analysis system that automatically collects, processes, and analyzes customer reviews using Natural Language Processing (NLP) and Deep Learning techniques.
+* Overview
+* Problem Statement
+* Objectives
+* Features
+* Project Workflow
+* Tech Stack
+* NLP Pipeline
+* Deep Learning Models
+* Aspect-Based Sentiment Analysis
+* Project Structure
+* Project Status
+* Future Scope
+* Expected Outcomes
+* Authors
+
+---
+
+# 🚀 Overview
+
+Online used-car marketplaces generate thousands of customer reviews every day. These reviews contain valuable information about customer satisfaction, service quality, pricing, and vehicle condition. However, manually analysing such a large volume of feedback is inefficient and time-consuming.
+
+**AutoPulse** automates this process using **Natural Language Processing (NLP)** and **Deep Learning**. It collects customer reviews, preprocesses textual data, classifies sentiment, performs aspect-based sentiment analysis, and presents insights through interactive dashboards.
 
 The system classifies reviews into:
 
-😊 Positive
-😐 Neutral
-😠 Negative
+* 😊 Positive
+* 😐 Neutral
+* 😠 Negative
 
-In addition to sentiment classification, the project performs Aspect-Based Sentiment Analysis (ABSA) to identify customer opinions on important aspects such as:
+It also identifies customer opinions about important aspects such as:
 
-Vehicle Condition
-Price
-Mileage
-Documentation
-Delivery Experience
-Customer Service
+* 🚗 Vehicle Condition
+* 💰 Price
+* ⛽ Mileage
+* 📄 Documentation
+* 🚚 Delivery Experience
+* 👨‍💼 Customer Service
 
-The processed results are visualized through an interactive dashboard, enabling customers to make informed decisions while helping companies identify areas for service improvement.
+---
 
-❗ Problem Statement
+# ❗ Problem Statement
 
-Online used-car platforms receive thousands of customer reviews every day.
+Customers rely heavily on online reviews before purchasing a used car. Since these platforms receive thousands of reviews, manually identifying customer satisfaction and common issues is difficult.
 
-Analyzing these reviews manually is challenging because:
+An automated sentiment analysis system is needed to:
 
-Huge volume of textual data
-Mixed opinions and emotions
-Difficult to identify common customer issues
-Time-consuming for buyers and businesses
+* Analyse large-scale customer feedback
+* Identify positive and negative experiences
+* Discover common customer concerns
+* Support better business decisions
 
-An automated sentiment analysis system is therefore required to efficiently analyze customer feedback and provide meaningful insights.
+---
 
-🎯 Objectives
+# 🎯 Objectives
 
-The primary objectives of this project are:
+* Collect customer reviews from Cars24 and Spinny
+* Create an integrated review dataset
+* Clean and preprocess textual data
+* Build Deep Learning models for sentiment classification
+* Perform Aspect-Based Sentiment Analysis (ABSA)
+* Compare customer satisfaction across platforms
+* Visualise insights using interactive dashboards
 
-Collect customer reviews from Cars24 and Spinny
-Integrate reviews into a unified dataset
-Clean and preprocess textual data
-Perform sentiment classification using Deep Learning
-Identify sentiment for specific aspects of customer experience
-Compare Cars24 and Spinny based on customer opinions
-Visualize insights using dashboards and graphs
-Help customers choose better platforms
-Help companies improve their services
-✨ Key Features
-📥 Data Collection
-Collect reviews from multiple sources
-Cars24 Reviews
-Spinny Reviews
-🧹 Data Cleaning
-Remove duplicates
-Handle missing values
-Remove unwanted symbols
-Normalize text
-🔤 Text Preprocessing
-Lowercase conversion
-Tokenization
-Stop-word Removal
-Lemmatization
-Removing URLs
-Removing Emojis
-Removing Punctuation
-Removing Numbers
-Text Normalization
-🤖 Sentiment Classification
+---
 
-Classify every review into:
+# ✨ Features
 
-Positive
-Negative
-Neutral
+### 📥 Data Collection
+
+* Multi-source review collection
+* Cars24 reviews
+* Spinny reviews
+
+### 🧹 Data Preprocessing
+
+* Duplicate removal
+* Missing value handling
+* URL removal
+* Emoji removal
+* Punctuation removal
+* Number removal
+* Text normalisation
+* Lowercase conversion
+* Tokenisation
+* Stop-word removal
+* Lemmatisation
+
+### 🤖 Sentiment Classification
+
+Predicts customer sentiment as:
+
+* Positive
+* Neutral
+* Negative
 
 using Deep Learning models.
 
-🎯 Aspect-Based Sentiment Analysis
+### 🎯 Aspect-Based Sentiment Analysis
 
-Identify customer opinions related to:
+Identifies sentiment for:
 
-💰 Price
-🚗 Vehicle Condition
-⛽ Mileage
-📑 Documentation
-🚚 Delivery
-👨‍💼 Customer Service
-📊 Comparative Analysis
+* Vehicle Condition
+* Price
+* Mileage
+* Documentation
+* Delivery
+* Customer Service
 
-Compare:
+### 📊 Dashboard
 
-Overall customer satisfaction
-Average sentiment score
-Positive review percentage
-Negative review percentage
-Most discussed topics
-Common customer complaints
-📈 Interactive Dashboard
+Interactive visualisations including:
 
-Visualizations include:
+* Sentiment Distribution
+* Platform Comparison
+* Aspect-wise Sentiment
+* Word Cloud
+* Review Trends
+* Customer Satisfaction Analysis
 
-Pie Charts
-Bar Charts
-Word Clouds
-Sentiment Distribution
-Aspect-wise Analysis
-Platform Comparison
-Review Trends
-🔄 Project Workflow
-                Customer Reviews
-                        │
-                        ▼
-               Data Collection
-                        │
-                        ▼
-               Data Integration
-                        │
-                        ▼
-                 Data Cleaning
-                        │
-                        ▼
-             Text Preprocessing
-                        │
-                        ▼
-           Feature Extraction (TF-IDF/BERT)
-                        │
-                        ▼
-          Deep Learning Model Training
-                        │
-                        ▼
-          Sentiment Classification
-                        │
-                        ▼
-      Aspect-Based Sentiment Analysis
-                        │
-                        ▼
-      Dashboard & Data Visualization
-                        │
-                        ▼
-             Business Insights
-🛠️ Technologies Used
-Programming Language
-Python
-Development Environment
-Jupyter Notebook
-VS Code
-Libraries
-Data Processing
-Pandas
-NumPy
-Visualization
-Matplotlib
-Plotly
-Seaborn
-NLP
-NLTK
-spaCy
-Regex
-Deep Learning
-TensorFlow
-Keras
+---
 
-(Optional)
+# 🔄 Project Workflow
 
-PyTorch
-Hugging Face Transformers
-Machine Learning
-Scikit-learn
-🧠 NLP Pipeline
+```text
+Customer Reviews
+        │
+        ▼
+Data Collection
+        │
+        ▼
+Data Integration
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Text Preprocessing
+        │
+        ▼
+Feature Extraction
+(TF-IDF / BERT Embeddings)
+        │
+        ▼
+Deep Learning Models
+(LSTM / Bi-LSTM / BERT)
+        │
+        ▼
+Sentiment Classification
+        │
+        ▼
+Aspect-Based Sentiment Analysis
+        │
+        ▼
+Dashboard & Visualisation
+        │
+        ▼
+Business Insights
+```
 
-The preprocessing pipeline consists of:
+---
 
+# 🛠️ Tech Stack
+
+## Programming Language
+
+* Python
+
+## Development Tools
+
+* Jupyter Notebook
+* Visual Studio Code
+
+## Data Processing
+
+* Pandas
+* NumPy
+
+## Natural Language Processing
+
+* NLTK
+* spaCy
+* Regular Expressions (Regex)
+
+## Machine Learning
+
+* Scikit-learn
+
+## Deep Learning
+
+* TensorFlow
+* Keras
+* Hugging Face Transformers (BERT)
+
+## Data Visualisation
+
+* Matplotlib
+* Seaborn
+* Plotly
+
+---
+
+# 🧠 NLP Pipeline
+
+```text
 Raw Reviews
       │
       ▼
@@ -216,71 +227,59 @@ Lowercase Conversion
 Text Cleaning
       │
       ▼
-Tokenization
+Tokenisation
       │
       ▼
 Stop-word Removal
       │
       ▼
-Lemmatization
+Lemmatisation
       │
       ▼
 Feature Extraction
       │
       ▼
 Deep Learning Model
-🤖 Deep Learning Models
+```
 
-The project evaluates multiple Deep Learning architectures.
+---
 
-LSTM
+# 🤖 Deep Learning Models
 
-Long Short-Term Memory networks effectively capture long-range dependencies in sequential text data.
+### LSTM
 
-Advantages
-Handles sequential information
-Suitable for sentiment classification
-Captures contextual information
-Bi-LSTM
+* Captures long-term dependencies in text
+* Suitable for sequential sentiment analysis
 
-Bidirectional LSTM processes text in both forward and backward directions.
+### Bi-LSTM
 
-Advantages
-Better contextual understanding
-Higher classification accuracy
-Improved performance over standard LSTM
-BERT
+* Processes text in both forward and backward directions
+* Provides better contextual understanding
 
-Bidirectional Encoder Representations from Transformers.
+### BERT
 
-Advantages
-Context-aware embeddings
-State-of-the-art NLP performance
-Superior sentiment classification accuracy
-🎯 Aspect-Based Sentiment Analysis
+* Transformer-based language model
+* Produces contextual embeddings
+* Delivers state-of-the-art sentiment classification performance
 
-Instead of predicting only overall sentiment, the project analyzes specific customer concerns.
+---
 
-Aspect	Description
-💰 Price	Is the pricing fair?
-🚗 Vehicle Condition	Quality of the vehicle
-📄 Documentation	Paperwork process
-🚚 Delivery	Delivery experience
-⛽ Mileage	Vehicle performance
-👨‍💼 Customer Service	Customer support quality
-📊 Dashboard
+# 🎯 Aspect-Based Sentiment Analysis
 
-The dashboard presents:
+| Aspect                 | Description                   |
+| ---------------------- | ----------------------------- |
+| 🚗 Vehicle Condition   | Vehicle quality and condition |
+| 💰 Price               | Pricing and value for money   |
+| ⛽ Mileage              | Vehicle performance           |
+| 📄 Documentation       | Paperwork and documentation   |
+| 🚚 Delivery            | Delivery experience           |
+| 👨‍💼 Customer Service | Customer support quality      |
 
-Overall Sentiment Distribution
-Positive vs Negative Comparison
-Cars24 vs Spinny Comparison
-Aspect-wise Sentiment
-Word Cloud
-Review Frequency
-Most Frequent Keywords
-Customer Satisfaction Score
-📁 Project Structure
+---
+
+# 📁 Project Structure
+
+```text
 AutoPulse/
 │
 ├── Data/
@@ -294,8 +293,9 @@ AutoPulse/
 │   ├── Phase2_DataIntegration.ipynb
 │   ├── Phase3_DataCleaning.ipynb
 │   ├── Phase4_TextPreprocessing.ipynb
-│   ├── Phase5_ModelTraining.ipynb
-│   ├── Phase6_Evaluation.ipynb
+│   ├── Phase5_FeatureExtraction.ipynb
+│   ├── Phase6_ModelTraining.ipynb
+│   ├── Phase7_ModelEvaluation.ipynb
 │   └── Dashboard.ipynb
 │
 ├── Models/
@@ -304,55 +304,70 @@ AutoPulse/
 │   └── BERT/
 │
 ├── Dashboard/
-│
 ├── Images/
-│
 ├── README.md
-│
 └── requirements.txt
-📌 Current Progress
-Phase	Status
-✅ Phase 1	Data Collection
-✅ Phase 2	Data Integration
-✅ Phase 3	Data Cleaning
-✅ Phase 4	Text Preprocessing
-⏳ Phase 5	Feature Extraction
-⏳ Phase 6	Model Training (LSTM / Bi-LSTM / BERT)
-⏳ Phase 7	Model Evaluation
-⏳ Phase 8	Dashboard Development
-⏳ Phase 9	Deployment
-🚀 Future Enhancements
-Real-time review analysis
-Multi-language sentiment analysis
-Fake review detection
-Voice review analysis
-Explainable AI (XAI)
-Live dashboard updates
-Recommendation system
-Mobile application support
-🎯 Expected Outcomes
+```
 
-After completion, the system will:
+---
 
-Automatically classify customer reviews into Positive, Neutral, and Negative sentiments.
-Perform aspect-based sentiment analysis on key customer concerns.
-Compare customer satisfaction between Cars24 and Spinny.
-Generate actionable business insights through interactive dashboards.
-Support customers in making informed purchasing decisions while helping businesses improve service quality.
-👨‍💻 Authors
+# 📌 Project Status
 
-AutoPulse – Sentiment Analysis of Used Car Reviews
+| Phase                 | Status        |
+| --------------------- | ------------- |
+| Data Collection       | ✅ Completed   |
+| Data Integration      | ✅ Completed   |
+| Data Cleaning         | ✅ Completed   |
+| Text Preprocessing    | ✅ Completed   |
+| Feature Extraction    | ⏳ In Progress |
+| Model Training        | ⏳ Pending     |
+| Model Evaluation      | ⏳ Pending     |
+| Dashboard Development | ⏳ Pending     |
+| Deployment            | ⏳ Pending     |
+
+---
+
+# 🚀 Future Scope
+
+* Real-time sentiment analysis
+* Multi-language support
+* Fake review detection
+* Explainable AI (XAI)
+* Live dashboard updates
+* Recommendation system
+* Mobile application
+
+---
+
+# 🎯 Expected Outcomes
+
+* Automatically classify customer reviews into Positive, Neutral, and Negative sentiments.
+* Identify customer opinions for specific service aspects.
+* Compare customer satisfaction between Cars24 and Spinny.
+* Generate meaningful business insights through interactive dashboards.
+* Support customers in making informed purchasing decisions and help companies improve service quality.
+
+---
+
+# 👨‍💻 Authors
+
+**AutoPulse – Sentiment Analysis of Used Car Reviews using NLP & Deep Learning**
 
 Developed using:
 
-Python
-Natural Language Processing (NLP)
-Deep Learning (LSTM, Bi-LSTM, BERT)
-Data Visualization
-Jupyter Notebook
-<div align="center">
-⭐ If you find this project useful, consider giving it a Star!
+* Python
+* Natural Language Processing (NLP)
+* Deep Learning (LSTM, Bi-LSTM, BERT)
+* TensorFlow & Keras
+* Hugging Face Transformers
+* Data Visualisation
 
-"Turning Customer Opinions into Actionable Insights with AI." 🚗📊🤖
+---
+
+<div align="center">
+
+⭐ **If you found this project helpful, consider giving it a Star!**
+
+*"Turning Customer Opinions into Actionable Insights with AI."* 🚗📊🤖
 
 </div>
