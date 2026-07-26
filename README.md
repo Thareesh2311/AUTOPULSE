@@ -10,7 +10,6 @@ An intelligent NLP and Deep Learning system that analyses customer reviews from 
 
 </div>
 
----
 
 # Table of Contents
 
@@ -28,8 +27,6 @@ An intelligent NLP and Deep Learning system that analyses customer reviews from 
 * Future Scope
 * Expected Outcomes
 * Authors
-
----
 
 # Overview
 
