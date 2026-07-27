@@ -26,7 +26,6 @@ An intelligent NLP and Deep Learning system that analyses customer reviews from 
 * Project Status
 * Future Scope
 * Expected Outcomes
-* Authors
 
 # Overview
 
