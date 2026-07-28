@@ -280,7 +280,7 @@ AutoPulse/
 | Data Integration      | ✅ Completed   |
 | Data Cleaning         | ✅ Completed   |
 | Text Preprocessing    | ✅ Completed   |
-| Feature Extraction    | ⏳ In Progress |
+| Feature Extraction    | ✅ Completed   |
 | Model Training        | ⏳ Pending     |
 | Model Evaluation      | ⏳ Pending     |
 | Dashboard Development | ⏳ Pending     |
