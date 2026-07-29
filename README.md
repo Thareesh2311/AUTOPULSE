@@ -71,7 +71,6 @@ An automated sentiment analysis system is needed to:
 
 ### Data Collection
 
-* Multi-source review collection
 * Cars24 reviews
 * Spinny reviews
 
