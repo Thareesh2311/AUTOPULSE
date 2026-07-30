@@ -88,15 +88,6 @@ An automated sentiment analysis system is needed to:
 * Stop-word removal
 * Lemmatisation
 
-### Sentiment Classification
-
-Predicts customer sentiment as:
-
-* Positive
-* Neutral
-* Negative
-
-using Deep Learning models.
 
 ### Aspect-Based Sentiment Analysis
 
