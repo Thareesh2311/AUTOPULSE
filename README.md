@@ -91,15 +91,6 @@ An automated sentiment analysis system is needed to:
 
 ### Aspect-Based Sentiment Analysis
 
-Identifies sentiment for:
-
-* Vehicle Condition
-* Price
-* Mileage
-* Documentation
-* Delivery
-* Customer Service
-
 # Project Workflow
 
 ```text
