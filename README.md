@@ -39,8 +39,6 @@ The system classifies reviews into:
 * Positive
 * Neutral
 * Negative
-
-It also identifies customer opinions:
 ---
 
 # Problem Statement
