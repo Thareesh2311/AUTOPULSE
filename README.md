@@ -245,7 +245,7 @@ AutoPulse/
 | Text Preprocessing    | ✅ Completed   |
 | Feature Extraction    | ✅ Completed   |
 | Model Training        | ✅ Completed   |
-| Model Evaluation      | ⏳ Pending     |
+| Model Evaluation      | ✅ Completed   |
 | Dashboard Development | ⏳ Pending     |
 | Deployment            | ⏳ Pending     |
 
