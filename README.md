@@ -1,5 +1,4 @@
 # AutoPulse
-
 ## Sentiment Analysis of Used Car Reviews using NLP & Deep Learning
 
 <div align="center">
