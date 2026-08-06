@@ -9,7 +9,6 @@ An intelligent NLP and Deep Learning system that analyses customer reviews from 
 
 </div>
 
-
 # Overview
 
 Online used-car marketplaces generate thousands of customer reviews every day. These reviews contain valuable information about customer satisfaction, service quality, pricing, and vehicle condition. However, manually analysing such a large volume of feedback is inefficient and time-consuming.
