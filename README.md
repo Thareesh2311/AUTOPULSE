@@ -34,7 +34,6 @@ An automated sentiment analysis system is needed to:
 * Support better business decisions
 
 ---
-
 # Objectives
 
 * Collect customer reviews from Cars24 and Spinny
@@ -46,7 +45,6 @@ An automated sentiment analysis system is needed to:
 * Visualise insights using interactive dashboards
 
 ---
-
 #  Features
 
 ### Data Collection
