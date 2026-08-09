@@ -241,7 +241,7 @@ AutoPulse/
 | Feature Extraction    | ✅ Completed   |
 | Model Training        | ✅ Completed   |
 | Model Evaluation      | ✅ Completed   |
-| Dashboard Development | ⏳ Pending     |
+| Dashboard Development | ✅ Completed   |
 | Deployment            | ⏳ Pending     |
 
 ---
