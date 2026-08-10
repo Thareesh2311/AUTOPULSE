@@ -242,7 +242,7 @@ AutoPulse/
 | Model Training        | ✅ Completed   |
 | Model Evaluation      | ✅ Completed   |
 | Dashboard Development | ✅ Completed   |
-| Deployment            | ⏳ Pending     |
+| Deployment            | ✅ Completed   |
 
 ---
 
