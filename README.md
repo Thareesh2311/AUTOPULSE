@@ -6,7 +6,6 @@
 ### Turning Customer Reviews into Actionable Insights with AI
 
 An intelligent NLP and Deep Learning system that analyses customer reviews from **Cars24** and **Spinny** to understand customer sentiment, identify key concerns, and provide business insights through interactive visualisations.
-
 </div>
 # Overview
 Online used-car marketplaces generate thousands of customer reviews every day. These reviews contain valuable information about customer satisfaction, service quality, pricing, and vehicle condition. However, manually analysing such a large volume of feedback is inefficient and time-consuming.
