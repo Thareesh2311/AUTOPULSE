@@ -19,7 +19,6 @@ The system classifies reviews into:
 ---
 
 # Problem Statement
-
 Customers rely heavily on online reviews before purchasing a used car. Since these platforms receive thousands of reviews, manually identifying customer satisfaction and common issues is difficult.
 
 An automated sentiment analysis system is needed to:
