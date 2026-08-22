@@ -10,7 +10,6 @@ An intelligent NLP and Deep Learning system that analyses customer reviews from 
 Online used-car marketplaces generate thousands of customer reviews every day. These reviews contain valuable information about customer satisfaction, service quality, pricing, and vehicle condition. However, manually analysing such a large volume of feedback is inefficient and time-consuming.
 
 **AutoPulse** automates this process using **Natural Language Processing (NLP)** and **Deep Learning**. It collects customer reviews, preprocesses textual data, classifies sentiment, performs aspect-based sentiment analysis, and presents insights through interactive dashboards.
-
 The system classifies reviews into:
 * Positive
 * Neutral
