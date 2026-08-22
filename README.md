@@ -15,7 +15,6 @@ The system classifies reviews into:
 * Neutral
 * Negative
 ---
-
 # Problem Statement
 Customers rely heavily on online reviews before purchasing a used car. Since these platforms receive thousands of reviews, manually identifying customer satisfaction and common issues is difficult.
 
