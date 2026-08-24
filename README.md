@@ -2,7 +2,6 @@
 ## Sentiment Analysis of Used Car Reviews using NLP & Deep Learning
 
 <div align="center">
-
 ### Turning Customer Reviews into Actionable Insights with AI
 An intelligent NLP and Deep Learning system that analyses customer reviews from **Cars24** and **Spinny** to understand customer sentiment, identify key concerns, and provide business insights through interactive visualisations.
 </div>
